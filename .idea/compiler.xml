@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="netconf-java" />
+        <module name="switchboard" />
+        <module name="switchboard-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book" target="1.5" />
+      <module name="gateway" target="1.8" />
+      <module name="netconf-java" target="1.5" />
+      <module name="switchboard" target="1.8" />
+      <module name="switchboard-gateway" target="1.8" />
+      <module name="SwitchBoardGateway" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
